@@ -1,4 +1,7 @@
 document.querySelectorAll('.button').forEach(button => button.addEventListener('click', event => { const ripple = document.createElement('i'); ripple.className = 'button-ripple'; const rect = button.getBoundingClientRect(); ripple.style.left = `${event.clientX - rect.left}px`; ripple.style.top = `${event.clientY - rect.top}px`; button.appendChild(ripple); setTimeout(() => ripple.remove(), 600); }));
+
+const siteLoader = document.querySelector('.site-loader');
+if (siteLoader) setTimeout(() => { siteLoader.style.opacity = '0'; siteLoader.style.visibility = 'hidden'; }, 2200);
 document.querySelector('.newsletter')?.addEventListener('submit', event => { event.preventDefault(); const button = event.currentTarget.querySelector('button'); button.textContent = '✓'; });
 
 const magneticTargets = document.querySelectorAll('.button-primary, .text-link');
