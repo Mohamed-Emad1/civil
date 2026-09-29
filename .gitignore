@@ -1,1 +1,9 @@
 .DS_Store
+
+# Scanned legal/registration documents (contain national ID, signatures, fingerprint) — never publish
+assets/company_2.jpeg
+assets/company_3.jpeg
+assets/company_4.jpeg
+assets/company_5.jpeg
+assets/company_6.jpeg
+assets/company_7.jpeg

@@ -3,10 +3,7 @@ import './navbar.js';
 import './scroll.js';
 import './counter.js';
 import './gallery.js';
-import './before-after.js';
-import './slider.js';
 import './animations.js';
-import './insights.js';
 
 const form = document.querySelector('#contactForm');
 form?.addEventListener('submit', event => {
