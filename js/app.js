@@ -4,6 +4,7 @@ import './scroll.js';
 import './counter.js';
 import './gallery.js';
 import './carousel.js';
+import './videos.js';
 import './animations.js';
 
 const form = document.querySelector('#contactForm');

@@ -2,7 +2,3 @@
 
 .person-image-mono{display:flex;align-items:center;justify-content:center;background:linear-gradient(160deg,var(--surface-3),var(--surface-2))}
 .person-mono{font-family:"DM Serif Display",serif;font-size:150px;line-height:1;color:var(--accent);opacity:.92}
-.video-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
-.video-card{background:var(--surface-2);border:1px solid var(--border);overflow:hidden}
-.video-card video{width:100%;display:block;aspect-ratio:16/10;object-fit:cover;background:#000}
-.video-card figcaption{padding:12px 16px;font-size:12px;color:var(--muted)}

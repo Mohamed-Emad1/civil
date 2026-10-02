@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/carousel.css" />
+    <link rel="stylesheet" href="css/video-carousel.css" />
   </head>
   <body>
     <a class="skip-link" href="#main-content">تخطّي إلى المحتوى</a>
@@ -195,15 +196,71 @@
       <section class="video-section section-pad" id="site-clips">
         <div class="container">
           <div class="section-topline reveal reveal-up"><div><p class="eyebrow"><span></span> لقطات من الموقع</p><h2>أعمال تتحرك<br /><em>أمام عينك.</em></h2></div><p class="section-note">مقاطع قصيرة من مواقع التنفيذ والتشطيب.</p></div>
-          <div class="video-grid">
-            <figure class="video-card reveal reveal-up"><video controls preload="metadata" muted playsinline><source src="assets/project_4_vid_1.mp4" type="video/mp4" /></video><figcaption>مطبخ بجزيرة رخامية</figcaption></figure>
-            <figure class="video-card reveal reveal-up delay-1"><video controls preload="metadata" muted playsinline><source src="assets/project_4_vid_2.mp4" type="video/mp4" /></video><figcaption>حمامات وغرفة ملابس</figcaption></figure>
-            <figure class="video-card reveal reveal-up delay-2"><video controls preload="metadata" muted playsinline><source src="assets/project_2_vid1.mp4" type="video/mp4" /></video><figcaption>تشطيب مطبخ برخام وخشب</figcaption></figure>
-            <figure class="video-card reveal reveal-up delay-3"><video controls preload="metadata" muted playsinline><source src="assets/project_2_vid2.mp4" type="video/mp4" /></video><figcaption>تفاصيل تنفيذ المطبخ</figcaption></figure>
-            <figure class="video-card reveal reveal-up"><video controls preload="metadata" muted playsinline><source src="assets/project_3_vid_1.mp4" type="video/mp4" /></video><figcaption>مطبخ وغرفة ملابس</figcaption></figure>
-            <figure class="video-card reveal reveal-up delay-1"><video controls preload="metadata" muted playsinline><source src="assets/project_1_vid.mp4" type="video/mp4" /></video><figcaption>مطبخ عصري — لقطة تنفيذ</figcaption></figure>
-            <figure class="video-card reveal reveal-up delay-2"><video controls preload="metadata" muted playsinline><source src="assets/project_1_vid_2.mp4" type="video/mp4" /></video><figcaption>مطبخ عصري — زاوية أخرى</figcaption></figure>
-          </div>
+        </div>
+        <div class="vc reveal reveal-up" role="group" aria-roledescription="carousel" aria-label="مقاطع فيديو من المواقع" tabindex="0">
+          <article class="vc-slide" data-index="0" data-status="active" aria-roledescription="slide" aria-label="1 من 7">
+            <div class="vc-media"><video controls preload="metadata" muted playsinline><source src="assets/project_4_vid_1.mp4#t=0.1" type="video/mp4" /></video></div>
+            <div class="vc-info"><span class="vc-num"><b>01</b> / 07</span><p>جزيرة رخامية مركزية بتشطيبات دقيقة وتفاصيل نجارة متقنة.</p></div>
+            <div class="vc-title"><h3>مطبخ بجزيرة رخامية</h3></div>
+            <div class="vc-nav">
+              <button class="vc-btn" type="button" data-dir="-1" aria-label="الفيديو السابق">→</button>
+              <button class="vc-btn" type="button" data-dir="1" aria-label="الفيديو التالي">←</button>
+            </div>
+          </article>
+          <article class="vc-slide" data-index="1" data-status="inactive" aria-roledescription="slide" aria-label="2 من 7">
+            <div class="vc-media"><video controls preload="none" muted playsinline><source src="assets/project_4_vid_2.mp4#t=0.1" type="video/mp4" /></video></div>
+            <div class="vc-info"><span class="vc-num"><b>02</b> / 07</span><p>جولة في الحمامات وغرفة الملابس بعد اكتمال التشطيب.</p></div>
+            <div class="vc-title"><h3>حمامات وغرفة ملابس</h3></div>
+            <div class="vc-nav">
+              <button class="vc-btn" type="button" data-dir="-1" aria-label="الفيديو السابق">→</button>
+              <button class="vc-btn" type="button" data-dir="1" aria-label="الفيديو التالي">←</button>
+            </div>
+          </article>
+          <article class="vc-slide" data-index="2" data-status="inactive" aria-roledescription="slide" aria-label="3 من 7">
+            <div class="vc-media"><video controls preload="none" muted playsinline><source src="assets/project_2_vid1.mp4#t=0.1" type="video/mp4" /></video></div>
+            <div class="vc-info"><span class="vc-num"><b>03</b> / 07</span><p>تناغم بين الرخام والخشب في مطبخ نفّذه فريقنا بالكامل.</p></div>
+            <div class="vc-title"><h3>تشطيب مطبخ برخام وخشب</h3></div>
+            <div class="vc-nav">
+              <button class="vc-btn" type="button" data-dir="-1" aria-label="الفيديو السابق">→</button>
+              <button class="vc-btn" type="button" data-dir="1" aria-label="الفيديو التالي">←</button>
+            </div>
+          </article>
+          <article class="vc-slide" data-index="3" data-status="inactive" aria-roledescription="slide" aria-label="4 من 7">
+            <div class="vc-media"><video controls preload="none" muted playsinline><source src="assets/project_2_vid2.mp4#t=0.1" type="video/mp4" /></video></div>
+            <div class="vc-info"><span class="vc-num"><b>04</b> / 07</span><p>لقطة قريبة لتفاصيل التنفيذ والتركيب خطوة بخطوة.</p></div>
+            <div class="vc-title"><h3>تفاصيل تنفيذ المطبخ</h3></div>
+            <div class="vc-nav">
+              <button class="vc-btn" type="button" data-dir="-1" aria-label="الفيديو السابق">→</button>
+              <button class="vc-btn" type="button" data-dir="1" aria-label="الفيديو التالي">←</button>
+            </div>
+          </article>
+          <article class="vc-slide" data-index="4" data-status="inactive" aria-roledescription="slide" aria-label="5 من 7">
+            <div class="vc-media"><video controls preload="none" muted playsinline><source src="assets/project_3_vid_1.mp4#t=0.1" type="video/mp4" /></video></div>
+            <div class="vc-info"><span class="vc-num"><b>05</b> / 07</span><p>مطبخ وغرفة ملابس بالخشب الجوزي بتصميم عملي وأنيق.</p></div>
+            <div class="vc-title"><h3>مطبخ وغرفة ملابس</h3></div>
+            <div class="vc-nav">
+              <button class="vc-btn" type="button" data-dir="-1" aria-label="الفيديو السابق">→</button>
+              <button class="vc-btn" type="button" data-dir="1" aria-label="الفيديو التالي">←</button>
+            </div>
+          </article>
+          <article class="vc-slide" data-index="5" data-status="inactive" aria-roledescription="slide" aria-label="6 من 7">
+            <div class="vc-media"><video controls preload="none" muted playsinline><source src="assets/project_1_vid.mp4#t=0.1" type="video/mp4" /></video></div>
+            <div class="vc-info"><span class="vc-num"><b>06</b> / 07</span><p>مطبخ عصري بتشطيب خشبي فاتح من موقع التنفيذ.</p></div>
+            <div class="vc-title"><h3>مطبخ عصري — لقطة تنفيذ</h3></div>
+            <div class="vc-nav">
+              <button class="vc-btn" type="button" data-dir="-1" aria-label="الفيديو السابق">→</button>
+              <button class="vc-btn" type="button" data-dir="1" aria-label="الفيديو التالي">←</button>
+            </div>
+          </article>
+          <article class="vc-slide" data-index="6" data-status="inactive" aria-roledescription="slide" aria-label="7 من 7">
+            <div class="vc-media"><video controls preload="none" muted playsinline><source src="assets/project_1_vid_2.mp4#t=0.1" type="video/mp4" /></video></div>
+            <div class="vc-info"><span class="vc-num"><b>07</b> / 07</span><p>زاوية مختلفة من المطبخ العصري بعد التسليم.</p></div>
+            <div class="vc-title"><h3>مطبخ عصري — زاوية أخرى</h3></div>
+            <div class="vc-nav">
+              <button class="vc-btn" type="button" data-dir="-1" aria-label="الفيديو السابق">→</button>
+              <button class="vc-btn" type="button" data-dir="1" aria-label="الفيديو التالي">←</button>
+            </div>
+          </article>
         </div>
       </section>
 
