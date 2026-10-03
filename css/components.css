@@ -2,3 +2,7 @@
 
 .person-image-mono{display:flex;align-items:center;justify-content:center;background:linear-gradient(160deg,var(--surface-3),var(--surface-2))}
 .person-mono{font-family:"DM Serif Display",serif;font-size:150px;line-height:1;color:var(--accent);opacity:.92}
+
+html[data-theme="light"] .site-header:not(.scrolled){--text:#f0eee7;--muted:#d6d3c9;--border-strong:rgba(240,238,231,.45);--accent:#e3c88c}
+@media(max-width:900px){html[data-theme="light"] .site-header:not(.scrolled) .main-nav{--text:#171914;--muted:#62645c;--accent:#9d7940}}
+.hero-location{font-size:18px;font-weight:800;color:#fff}.hero-location .pin{font-size:26px}
